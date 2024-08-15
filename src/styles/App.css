@@ -1,0 +1,9 @@
+.display {
+  width: 90vw;
+  margin: 20px auto;
+  max-height: 80vh;
+}
+a {
+  cursor: pointer;
+  width: fit-content;
+}

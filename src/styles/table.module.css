@@ -1,0 +1,135 @@
+.tableDisplay {
+  width: 100%;
+  max-height: 90vh;
+  overflow: auto;
+}
+
+.searchBar {
+  width: 25%;
+  min-width: 400px;
+  height: 3vh;
+}
+
+.tableHeader,
+.tableData {
+  display: flex;
+}
+.tableHeader > div {
+  height: 2vh;
+  background-color: rgb(53, 156, 182);
+  border: 1px solid rgb(170, 170, 170);
+  padding: 10px;
+  color: white;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+.col1 {
+  width: 5%;
+}
+.col2 {
+  width: 35%;
+}
+.col3,
+.col4,
+.col5,
+.col6 {
+  width: 15%;
+}
+
+.tableData > div {
+  background-color: rgb(231, 231, 231);
+  border: 1px solid rgb(212, 212, 212);
+  padding: 10px;
+}
+
+.collegeInfoCol {
+  display: flex;
+  flex-direction: column;
+}
+.collegeData {
+  height: 90%;
+  width: 100%;
+  display: flex;
+}
+.collegeLogo {
+  height: 30px;
+  width: 30px;
+}
+.collegeAbout {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1%;
+  position: relative;
+}
+.featuredDiv {
+  position: absolute;
+  top: -40px;
+  right: 0;
+  background-color: brown;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 10px;
+  font-size: 0.8rem;
+  color: bisque;
+}
+.collegeName {
+  font-family: sans-serif;
+  color: rgb(53, 119, 163);
+  font-size: 1.1rem;
+}
+.collegeLocation {
+  font-size: 0.8rem;
+  color: rgb(138, 138, 138);
+}
+.collegeActions {
+  display: flex;
+  justify-content: space-between;
+}
+.collegeInfoCol > div {
+  margin-bottom: 10px;
+}
+a {
+  font-size: 0.8rem;
+}
+.collegeFeeCol {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.placementCol {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.userReviewsCol {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.avgReview {
+  color: rgb(94, 94, 94);
+  font-size: large;
+  position: relative;
+  padding-left: 15px;
+}
+.avgReview::before {
+  content: "";
+  border-radius: 50%;
+  box-sizing: border-box;
+  height: 5px;
+  width: 5px;
+  padding: 5px;
+  background-color: orange;
+  position: absolute;
+  left: 0;
+  bottom: 5px;
+}
+.tagline {
+  background-color: rgb(230, 223, 184);
+  width: fit-content;
+  padding: 1% 5%;
+  border-radius: 10px;
+  color: rgb(184, 120, 1);
+}
